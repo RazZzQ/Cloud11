@@ -15,7 +15,7 @@
         }
         
         function createRecord($conn) {
-            $sql = "INSERT INTO login (id, usuario, password, created_at, created_by, modified_at, modified_by) VALUES (1233, 'Wasaaaa', 325, 14, 123, 12, 41)";
+            $sql = "INSERT INTO login (id, usuario, password, created_at, created_by, modified_at, modified_by) VALUES (1232, 'Wasaaaaaaa', 325, 14, 123, 12, 41)";
             
             if ($conn->query($sql) === TRUE) {
                 echo "Nuevo Wasaaaa incluido";
